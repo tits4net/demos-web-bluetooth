@@ -235,8 +235,8 @@ limitations under the License.
 
         function sendPrinterData() {
           // Print an image followed by the text
-          sendImageData()
-          .then(sendTextData)
+          //sendImageData()
+          sendTextData
           .then(() => {
             progress.hidden = true;
           })
